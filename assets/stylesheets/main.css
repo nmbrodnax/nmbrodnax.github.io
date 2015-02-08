@@ -1,5 +1,4 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
-  License: none (public domain) */
+/* RESET http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126; License: none (public domain) */
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -47,9 +46,7 @@ table {
 }
 
 /*
-  ========================================
-  Grid
-  ========================================
+GRID
 */
 
 *,
@@ -68,11 +65,60 @@ table {
 }
 
 /*
-  ========================================
-  Typography
-  ========================================
+TYPOGRAPHY
 */
 
 h1, h3, h4, h5, p {
   margin-bottom: 22px;
+}
+
+/*
+BUTTONS
+*/
+
+.btn {
+  border-radius: 5px;
+  display: inline-block;
+  margin: 0;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+/*
+HOME
+*/
+
+.hero {
+  padding: 22px 80px 66px 80px;
+}
+
+/*
+CLEARFIX
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+PRIMARY HEADER
+*/
+
+.logo {
+	border: 4px solid silver;
+	border-radius: 10%;
+	padding: 40px 10px 22px 10px;
+	margin: 10px;
+	float:left;
 }
